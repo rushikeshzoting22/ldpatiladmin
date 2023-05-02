@@ -85,7 +85,7 @@ submitButton.addEventListener("click", function() {
       console.log("Success! Welcome back!");
       window.alert("Success! Welcome back!");
       // ...
-      window.location.href = "/dashboard.html";
+      window.location.href = "/Dash/dashboard.html";
     })
     .catch((error) => {
       const errorCode = error.code;
